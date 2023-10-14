@@ -40,8 +40,6 @@ const App: React.FC = () => {
             if (matchedPairs.length === CARDS_COUNT - 1) {
                 setWon(true);
             }
-            console.log(matchedPairs.length)
-            console.log(matchedPairs.length == CARDS_COUNT)
         }
     }, [flippedIndices]);
 
